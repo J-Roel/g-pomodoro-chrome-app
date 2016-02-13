@@ -1,0 +1,118 @@
+/*
+	STYLES.CSS
+*/
+body{
+}
+.gSchool{
+	position: fixed;
+	left:20px;
+	top:0;
+	width: 50px;
+	height: 90px;
+	background-image: url('../media/galvanize.png');
+	background-repeat: no-repeat;
+	background-size: 50px 90px;
+	z-index: 0;
+}
+
+
+h1,h3 {
+	margin:0.25em;
+	text-shadow: 2px 2px 3px #000;
+	text-align: center;
+	color: #f7901e;
+}
+
+h1 { 
+	font-size: 3.4em;
+	padding-left: 25px;
+}
+
+h3 { 
+	font-size: 7em; 
+}
+
+
+/* -------- LINK BUTTONS ----------- */
+ul {
+
+	margin:0;
+	padding:0;
+	text-align: center;
+	
+}
+li {
+	display:inline-block;
+	list-style: none;
+	padding-left: 12px;
+}
+.bottom-menu {
+	border: 1px dashed #f7901e !important;
+	background: rgba(59,59,59,0.7);
+	font-size: 14px;
+}
+
+/* ===================DROPDOWN MENU================== */
+.dropdown p {
+	display: inline-block;
+	font-weight: bold;
+}
+
+select {
+
+      border: 0 !important;  /*Removes border*/
+      -webkit-appearance: none;  /*Removes default chrome and safari style*/
+      -moz-appearance: none; /* Removes Default Firefox style*/
+      background: url('../media/arrow.png') no-repeat;  /*Adds background-image*/
+      background-position: 95% 2px;/*Position of the background-image*/
+      background-size:20px 20px;
+      width: 100%; /*Width of select dropdown to give space for arrow image*/
+      min-width: 150px;
+      margin: 2%;
+      text-indent: 2px; /*Removes default arrow from firefox*/
+      text-overflow: "";  /*Removes default arrow from firefox*/
+
+      /*My custom style for fonts*/
+      padding-left:20px;
+      color: #000;
+}
+
+.dropdown-main, button{
+	font-size: 2em;
+	border-radius: 7px;
+	background-color: rgba(247,144,30,0.9);
+}
+
+.big-btn {
+	width: 100%;
+	margin: 2%;
+}
+.half-btn {
+	text-align: center;
+	width: 100%;
+	margin: 2%;
+	padding-left: 5px;
+}
+
+/* -------- GRID ------------------------------*/
+.container { width: 90%; margin: 0 auto; }
+/* -- Column Sizes -- */
+.one_fourth   { width:21.25%; }
+.one_third    { width:29.333%; }
+.one_half     { width:45.5%; }
+.two_third    { width:61.666%; }
+.three_fourth { width:69.75%; }
+.one_column   { width:94%; }
+.full_column  { width:100%; }
+/* -- Column Margin & Float-- */
+.one_half,.one_third,.two_third,
+.three_fourth,.one_fourth,.one_column,
+.full_column { margin-left:3%; margin-top:1%; float:left; }
+/* -- Column Row (aka Clearfix) -- */
+.row:after { content: ""; display: table; clear: both; }
+
+
+
+
+
+/* END OF FILE */

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Galvanize Pomodoro Counter</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="container">
+    <div class="gSchool"></div>
+    <h1>Pomodoro</h1>
+
+    <h3 id="minute">25</h3>
+    <div class="gSchool"></div>
+    <div class="row">
+        <select id="timeOpt" class="dropdown-main">
+            <option value="25,5"> 25 and 5 </option>
+            <option value="30,8"> 30 and 8 </option>
+            <option value="45,10"> 45 and 10 </option>
+        </select><br/>
+    </div>
+
+    <div class="row">
+        <button id="button" class="big-btn">Click To Start</button><br/>
+        <button id="reset" class="half-btn">RESET</button>
+        <button id="quit" class="half-btn">QUIT</button>
+    </div>
+    <div class="row">
+      <ul>
+        <li><button id="pomodoro" class="bottom-menu">Pomodoro</button></li>
+        <li><button id="me" class="bottom-menu">Me</button></li>        
+        <li><button id="galvanize" class="bottom-menu">Galvanize</button></li>
+      </ul>
+    </div>
+
+</div>
+  
+  <script src="js/javascript.js"></script>
+</body>
+</html>
