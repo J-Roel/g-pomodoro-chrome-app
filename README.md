@@ -1,4 +1,7 @@
 ## G Pomodoro
+Chrome Store: https://chrome.google.com/webstore/detail/g-pomodoro/hnegdkmkhalbihoahjpnchedhdhlapnf?hl=en
+My Blog: http://www.jeremyroelfs.com/blog/?p=118
+
 ![Alt tag](http://www.jeremyroelfs.com/blog/wp-content/uploads/2016/02/g-pomodoro.png)
 
 Thank you for checking out my Pomodoro counter. You can download it at the Google Chrome Store and use on your Chrome Browser.
@@ -13,6 +16,5 @@ Thank you for checking out my Pomodoro counter. You can download it at the Googl
   - Click the button to go on a break
   - Once your break is done, it will tell you to get back to work
   - Click the button to get back to work
-  
-For more information check out my website: http://www.jeremyroelfs.com/?p=118
+
 For more information on the Pomodoro Technique visit: http://pomodorotechnique.com/
