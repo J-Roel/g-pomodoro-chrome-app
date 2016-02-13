@@ -133,7 +133,7 @@ window.onload = function() {
 
     var galvanize = document.getElementById('galvanize'); 
     galvanize.addEventListener('click', function() {
-          window.open('http://www.galvanize.com/')
+          window.open('http://www.galvanize.com/campuses/fort-collins/')
     });
 
      //-------SYNTAX FOR LINKS----------
